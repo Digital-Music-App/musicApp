@@ -30,6 +30,15 @@ function showSlides(n) {
 
 // - II Music Player//
 // - 1 Music collection
+<<<<<<< HEAD
+// var 
+
+
+
+
+
+var icon = document.getElementById("icon");
+=======
 
 const playButton1 = document.getElementById("icon1");
     const audioNe3ma1 = document.getElementById("ne3ma1");
@@ -97,3 +106,4 @@ const playButton2 = document.getElementById("icon2");
 // for (var i =0 ; i < aze.length ; i++){
 //   console.log(aze[i].innerHTML);
 // }
+>>>>>>> b98a65eae06564711d5812e4a700d979b06b67b9

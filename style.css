@@ -64,6 +64,12 @@ justify-content: space-between;
   text-align: center;
 }
 
+<<<<<<< HEAD
+#icon{
+    width:80px;
+    cursor: pointer;
+}
+=======
 #icon1{
     width:80px;
     cursor: pointer;
@@ -80,6 +86,7 @@ justify-content: space-between;
   width:80px;
   cursor: pointer;
 }
+>>>>>>> b98a65eae06564711d5812e4a700d979b06b67b9
 
 /*carousel
 /* Slideshow container */
