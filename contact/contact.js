@@ -10,6 +10,4 @@ function validateForm() {
   } else {
       
       alert("Message successfully sent!");
-  }
-}
- 
+  } }
