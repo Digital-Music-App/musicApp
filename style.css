@@ -64,9 +64,21 @@ justify-content: space-between;
   text-align: center;
 }
 
-#icon{
+#icon1{
     width:80px;
     cursor: pointer;
+}
+#icon2{
+  width:80px;
+  cursor: pointer;
+}
+#icon3{
+  width:80px;
+  cursor: pointer;
+}
+#icon4{
+  width:80px;
+  cursor: pointer;
 }
 
 /*carousel
