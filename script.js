@@ -30,7 +30,7 @@ function showSlides(n) {
 
 // - II Music Player//
 // - 1 Music collection
-var 
+// var 
 
 
 
