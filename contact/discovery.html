@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="discovery.css">
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>   
+    
+    <title>Discovery</title>
+</head>
+<body>
+    <h1>Music Discovery</h1>
+
+    <div class="genre-grid">
+        <div class="genre-card" data-genre="tarab">طرب</div>
+        <div class="genre-card" data-genre="مزويد">مزويد</div>
+        <div class="genre-card" data-genre="اغاني عصرية">اغاني عصرية</div>
+    </div>
+
+    <div class="songs-list" id="tarab-songs">
+        <h2>tarab songs</h2>
+        <ul>
+            <li class="song-link" data-song="لليري يا منة"> " السيدة نعمة -" لليري يا منة</li>
+            <audio controls>
+                <source src="./SongsList/yassine.mp3" type="audio/mp3">
+              
+            </audio>
+    
+            <li class="song-link" data-song="تحت الياسمينة في الليل">"هادي جويني - "تحت الياسمينة في الليل</li>
+            <audio controls>
+                <source src="./SongsList/Hédijouini.mp3" type="audio/mp3">
+
+             
+        </ul>
+    </div>
+
+    <div class="songs-list" id="مزويد-songs">
+        <h2>مزويد songs</h2>
+        <ul>
+            <li class="song-link" data-song="ارظى علينا">صالح فرزيط-ارظى علين</li>
+            <audio controls>
+                <source src="./SongsList/TRIO FAHMI RIAHI & SABRY MOSBAH  صالح الفرزيط )    إرضى علينا ).mp3" type="audio/mp3">
+              
+            </audio>
+            <li class="song-link" data-song="ليلة والمزويد خدام">"هادي حبوبة-"ليلة والمزويد خدام  </li>
+            <audio controls>
+                <source src="./SongsList/Hedi habouba lila wil mezwed khadem  هادي حبوبة  ليلة و المزود خدام.mp3" type="audio/mp3">
+              
+            </audio>
+        </ul>
+    </div>
+
+    <div class="songs-list" id="اغاني عصرية-songs">
+        <h2>اغاني عصرية</h2>
+        <ul>
+            <li class="song-link" data-song="عربوش">"عربوش" - Nordo</li>
+            <audio controls>
+                <source src="./SongsList/Nordo - 3arbouch  عربوش (Clip Officiel).mp3" type="audio/mp3">
+              
+            </audio>
+            <li class="song-link" data-song="ya lili">"ya lili" - Balti</li>
+            <audio controls>
+                <source src="./SongsList/Balti - Ya Lili feat. Hamouda (Official Music Video).mp3" type="audio/mp3">
+              
+            </audio>
+            
+        </ul>
+    </div>
+    
+</body>
+<script src="discovery.js"></script>
+</html>

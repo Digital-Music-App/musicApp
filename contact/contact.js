@@ -1,8 +1,8 @@
 function validateForm() {
   // Get values from input fields
-  const username = document.getElementById("fuser").value;
-  const country = document.getElementById("country").value;
-  const subject = document.getElementById("subject").value;
+  var username = document.getElementById("fuser").value;
+  var country = document.getElementById("country").value;
+  var subject = document.getElementById("subject").value;
 
   
   if (username === '' || country === '' || subject === '') {
