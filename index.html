@@ -4,98 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tunisian Music Website</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <div class="hero">
+        <div class="header-container">
         <div class="navbar">
             <img src="images\logo.png" class="logo">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#">DISCOVER</a></li>
-                <li><a href="#">PLAYLISTS</a></li>
-<<<<<<< HEAD
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign up</a></li>
                 <li><a href="contact/Contact.html">CONTACT</a></li>
-=======
-                <li><a href="#">CONTACT</a></li>
->>>>>>> b98a65eae06564711d5812e4a700d979b06b67b9
-                <li><a href="#">SEARCH</a></li>
             </ul>
+        </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <ul id="searchResults"></ul>
+            </div>
         </div>
         <div class="content">
             <div class="slideshow-container">
-
                 <div class="mySlides fade">
-<<<<<<< HEAD
-                  <div class="numbertext">1 / 3</div>
-                  <img src="images\rr.png" style="width:100%" >
-                  <div class="text">Caption Text</div>
-                  <div class="icon-container"><img src="images/play.png" id="icon"></div>
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/ne3ma1.jpg" style="width:100%" >
+                    <div class="text">Ne3ma - Howa yamma السيدة نعمة - هو يمة</div>
+                    <audio id="ne3ma1" src="SongsList\ne3ma-Howayamma.mp3"></audio>
+                    <div class="icon-container"><img src="images/play.png" id="icon1"></div>
                 </div>
                 <div class="mySlides fade">
-                  <div class="numbertext">2 / 3</div>
-
-                  <img src="images/nn.png" style="width:100%">
-                  <div class="text">Caption Two</div>
-                  <div class="icon-container"><img src="images/play.png" id="icon"></div>
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="images/jj.png" style="width:100%">
-                  <div class="text">Caption Three</div>
-                  <div class="icon-container"><img src="images/play.png" id="icon"></div>
-=======
-                  <div class="numbertext">1 / 4</div>
-                  <img src="images/ne3ma1.jpg" style="width:100%" >
-                  <div class="text">Ne3ma - Howa yamma السيدة نعمة - هو يمة</div>
-                  <audio id="ne3ma1" src="SongsList\ne3ma-Howayamma.mp3"></audio>
-                  <div class="icon-container"><img src="images/play.png" id="icon1"></div>
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/ne3ma2.jpg" style="width:100%">
+                    <div class="text">Ne3ma - Lelliri ya manna السيدة نعمة - لليري يا منة</div>
+                    <audio id="ne3ma2" src="SongsList\Ne3ma - Lelliri ya manna .mp3"></audio>
+                    <div class="icon-container"><img src="images/play.png" id="icon2"></div>
                 </div>
                 <div class="mySlides fade">
-                  <div class="numbertext">2 / 4</div>
-                  <img src="images/ne3ma2.jpg" style="width:100%">
-                  <div class="text">Ne3ma - Lelliri ya manna السيدة نعمة - لليري يا منة</div>
-                  <audio id="ne3ma2" src="SongsList\Ne3ma - Lelliri ya manna .mp3"></audio>
-                  <div class="icon-container"><img src="images/play.png" id="icon2"></div>
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">3 / 4</div>
-                  <img src="images/hedijouini1.jpg" style="width:100%">
-                  <div class="text">Hedi Jouini - Ezin Ezin / هادي الجويني الزين الزين</div>
-                  <audio id="jouini1" src="SongsList\Hedi Jouini - Ezin Ezin.mp3"></audio>
-                  <div class="icon-container"><img src="images/play.png" id="icon3"></div>
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/hedijouini1.jpg" style="width:100%">
+                    <div class="text">Hedi Jouini - Ezin Ezin / هادي الجويني الزين الزين</div>
+                    <audio id="jouini1" src="SongsList\Hedi Jouini - Ezin Ezin.mp3"></audio>
+                    <div class="icon-container"><img src="images/play.png" id="icon3"></div>
                 </div>
                 <div class="mySlides fade">
-                  <div class="numbertext">4 / 4</div>
-                  <img src="images/hedi jouini2.jpg" style="width:100%" >
-                  <div class="text">Hédi Jouini هادي جويني - taht el yasmina fellil</div>
-                  <audio id="jouini2" src="SongsList\Hédi Jouini هادي جويني - taht el yasmina fellil - تحت الياسمينة في الليل.mp3"></audio>
-                  <div class="icon-container"><img src="images/play.png" id="icon4"></div>
->>>>>>> b98a65eae06564711d5812e4a700d979b06b67b9
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/hedi jouini2.jpg" style="width:100%" >
+                    <div class="text">Hédi Jouini هادي جويني - taht el yasmina fellil</div>
+                    <audio id="jouini2" src="SongsList\Hédi Jouini هادي جويني - taht el yasmina fellil - تحت الياسمينة في الليل.mp3"></audio>
+                    <div class="icon-container"><img src="images/play.png" id="icon4"></div>
                 </div>
-                
                 <a class="prev" onclick="plusSlides(-1)">❮</a>
                 <a class="next" onclick="plusSlides(1)">❯</a>
-                
-                </div>
-                
-                <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
             <div class="bottom">
                 <h1>THE FIRST PLATFORM IN TUNISIA FOR MUSIC COLLECTION</h1>
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-   
-=======
->>>>>>> b98a65eae06564711d5812e4a700d979b06b67b9
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
     </body>
 </html>
